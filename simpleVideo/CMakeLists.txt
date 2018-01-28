@@ -10,5 +10,5 @@ set(SOURCE_FILES
         src/main.cpp
         )
 
-add_executable(plainFaceTracker ${SOURCE_FILES})
-target_link_libraries(plainFaceTracker ${OpenCV_LIBS})
+add_executable(displayWebcam ${SOURCE_FILES})
+target_link_libraries(displayWebcam ${OpenCV_LIBS})
