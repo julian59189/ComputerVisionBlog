@@ -25,11 +25,11 @@ int main(int argc, const char **argv) {
     // Matrix container for image
     cv::Mat frame;
 
-    // int for kayboard
+    // int for keyboard
     int keyboard = 0;
 
     // read images as long as q is not pressed
-    while (keyboard != 'q' && keyboard != 27) {
+    while (keyboard != 'q') {
         cap >> frame; // get a new frame_ from camera
 
         cv::imshow("Display Frame", frame);
